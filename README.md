@@ -1,5 +1,6 @@
 # 🕵️La Traque
 #### Thèmes : `🧩Énigme` `🫆Enquête` `🧠Logique` `🧐Observation` `📜Mystère`
+<br>
 
 **La Traque est un jeu d’énigme et de réflexion dans un univers d’espionnage sombre et impitoyable où chaque détail compte.**  
 
@@ -12,7 +13,7 @@ Menez l’enquête pas à pas, déchiffrez des codes, percez des mystères et co
 #### 📃 Points de jeu :
  - Entrer votre réponse dans l'input en bas de la page.
  - N'hésiter pas à faire des recherches sur Internet.
- - Agrandisser les images pour mieux y voir
+ - Agrandisser les images pour mieux y voir.
  - Progresser énigme après énigme.
  - 15 étapes en tout.
  - Pour toutes questions ou bloquages, je reste bien entendu disponible.
