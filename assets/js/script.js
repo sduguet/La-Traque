@@ -118,7 +118,14 @@ function onClickBtnMaster() {
             ) {
                 setup2Enigma();
             } else {
-                if (v === '') masterInfo.innerHTML = `Entrez le numéro de Mariam`;
+                if (
+                    v === '22 12 65 15' ||
+                    v === '22126515' ||
+                    v === '22.12.65.15' ||
+                    v === '2212.6515' ||
+                    v === '2212 6515'
+                ) masterInfo.innerHTML = `Il faudrait aussi renseigner le code du pays`;
+                else if (v === '') masterInfo.innerHTML = `Entrez le numéro de Mariam`;
                 else masterInfo.innerHTML = `${v} : Mauvais numéro`;
 
                 masterInfo.classList.remove('master__info--cache');
