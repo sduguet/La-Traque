@@ -346,7 +346,7 @@ function onClickBtnMaster() {
                 setup13Enigma();
             } else {
                 if (v === 'DAUPHIN') masterInfo.innerHTML = `🐬 Bien tenté 😂`;
-                else if (v === '') masterInfo.innerHTML = `A quoi ça peut bien correspondre ?`;
+                else if (v === '') masterInfo.innerHTML = `À quoi ça peut bien correspondre ?`;
                 else masterInfo.innerHTML = `Mauvaise réponse`;
 
                 masterInfo.classList.remove('master__info--cache');
@@ -365,7 +365,7 @@ function onClickBtnMaster() {
             ) {
                 setup14Enigma();
             } else {
-                if (v === '') masterInfo.innerHTML = `Où va se produire l'attaque`;
+                if (v === '') masterInfo.innerHTML = `Où va se produire l'attaque ?`;
                 else masterInfo.innerHTML = `Mauvaise réponse`;
 
                 masterInfo.classList.remove('master__info--cache');
@@ -379,7 +379,7 @@ function onClickBtnMaster() {
             if (v.includes('Nishikigoi Village'.toLocaleUpperCase())) {
                 setup15Enigma();
             } else {
-                if (v === '') masterInfo.innerHTML = `Où va est le lieux de ce prochain rendez-vous`;
+                if (v === '') masterInfo.innerHTML = `Où est le lieux de ce prochain rendez-vous ?`;
                 else masterInfo.innerHTML = `Mauvaise réponse`;
 
                 masterInfo.classList.remove('master__info--cache');
@@ -730,7 +730,7 @@ function setup1Enigma() {
         <div class="fiche filtre">
             <div class="fiche__img"></div>
             <div class="fiche__content">
-                <p class="fiche__title">Fiche de renseignement</p>
+                <p class="fiche__title">Fiche de renseignements</p>
                 <p class="fiche__txt">
                     <span class="bold">Nom:</span> Mariam PEURE
                 </p>
@@ -788,11 +788,11 @@ function setup2Enigma() {
         <div class="msg">
             <div class="msg__history">
                 <p class="msg__txt">
-                    Vous composez le numéro et réussissez à contacter Mariam, d'une voix froide mais posée elle nous dit de
-                    nous méfier des de ceux qui nous entour et que Franck à surement du être trahit par quelqu'un qui lui
-                    été proche. Elle nous dit d'être prudent et qu'elle va nous transmettre quelque chose qui pourra nous
-                    aider. <br>
-                    Quelque minutes plus tard un pigeon arrive à notre fenêtre avec un message.
+                    Vous composez le numéro et réussissez à contacter Mariam. D'une voix froide mais posée, elle nous dit de
+                    nous méfier de ceux qui nous entourent et que Franck a sûrement dû être trahi par quelqu'un qui lui était
+                    proche. Elle nous dit d'être prudent et qu'elle va nous transmettre quelque chose qui pourra nous aider.
+                    <br>
+                    Quelques minutes plus tard, un pigeon arrive à notre fenêtre avec un message.
                 </p>
                 <div class="msg__img"></div>
             </div> 
@@ -872,8 +872,8 @@ function setup4Enigma() {
                 <span class="site__txt--left">• DX-965-MK</span><br>
                 <span class="site__txt--left">• GN-736-SN </span><br><br>
 
-                Il est sur qu'ils ont du passer dans une planque de Franck.<br>
-                Trouver dans quelle planque, rentrer le nom de la ville et les différentes information qui vous ont permis de trouver.
+                Il est sûr qu'ils ont dû passer dans une planque de Franck.<br>
+                Trouver dans quelle planque, rentrer le nom de la ville et les différentes informations qui vous ont permis de trouver.
             </p>
         </div>
     `;
@@ -890,19 +890,19 @@ function setup5Enigma() {
     main.innerHTML = `
         <div class="planque">
             <p class="planque__history">
-                Vous partez fouiller la planque de Bordeaux pour essayer de trouver des traces qui auraient pu etre
-                laissées. La planque est retournée, sans dessus dessous, et au détour d'une table renversée vous trouvez
+                Vous partez fouiller la planque de Bordeaux pour essayer de trouver des traces qui auraient pu être
+                laissées. La planque est retournée, sans dessus dessous, et au détour d'une table renversée, vous trouvez
                 un téléphone prépayé avec l'écran cassé mais qui fonctionne toujours.
-                Vous décidez de l'envoyer à Tom pour qu'il essaye de la tracer et voir ou le téléphone à pu borner, on
+                Vous décidez de l'envoyer à Tom pour qu'il essaye de la tracer et voir où le téléphone a pu borner, on
                 pourrait remonter vers ceux qui sont venus ici. <br>
-                Tom vous renvoies les infos qui sont ressorties :
+                Tom vous renvoie les infos qui sont ressorties :
             </p>
 
             <div class="infos">
                 <p class="infos__txt">
-                    Grace à ces 2 antennes situées sur des bâtisses divines,
+                    Grêce à ces 2 antennes situées sur des bâtisses divines,
                     on va pouvoir récupérer des informations sur ce téléphone.
-                    Entrez les adresses de chaques antennes pour récupérer leurs informations :
+                    Entrez les adresses de chaque antenne pour récupérer leurs informations :
                 </p>
 
                 <p class="infos__antenne infos__antenne--1">• Appelée Vraie croix, Provençal en a même eu la ferraille rouillée</p>
@@ -931,8 +931,8 @@ function setup6Enigma() {
             </p>
             <p class="ludo__txt">
                 “En passant par le plus primé grâce à ces cartes,<br>
-                le jeu que vous cherchez se déroule dans le pays entre le monument de la science et celui de la richesse,
-                de plus, ce jeu a été produit savoureusement.”
+                le jeu que vous cherchez se déroule dans le pays entre le monument de la science et celui de la richesse.
+                De plus, ce jeu a été produit savoureusement.”
             </p>
 
             <ul class="ludo-list">
@@ -968,7 +968,7 @@ function setup7Enigma() {
         <div class="boite7">
             <p class="boite7__history">
                 Vous vous empressez d'aller chercher la boîte de Resafa. <br>
-                Vous l'ouvez, et vous trouvez ce mot a l'interrieur :
+                Vous l'ouvrez, et vous trouvez ce mot à l'interieur :
             </p>
             <img class="boite7__img" src="./assets/img/papier.png" alt="">
         </div>
@@ -987,8 +987,8 @@ function setup8Enigma() {
         <div class="contrat">
             <div class="contrat__history">
                 <p>
-                    Après avoir regarder sous les différents tapis de la ludothèque.
-                    Vous trouvez une trape sous l'un d'entre eux, avec une boite à l'intérieur.  
+                    Après avoir regardé sous les différents tapis de la ludothèque.
+                    Vous trouvez une trappe sous l'un d'entre eux, avec une boîte à l'intérieur.  
                 </p>
                 <img class="contrat__img" src="./assets/img/contrat.jpeg" alt="">
             </div>
@@ -1000,7 +1000,7 @@ function setup8Enigma() {
                 <p class="contrat__txt">
                     M. Franck a en sa possession une personne d'une extrême importance, récupérer la quoi qu'il en coûte.<br><br>
                     Personne à récupérer : <br>
-                    Présent 768 millier de milliard de fois dans un homme lambda, j'ai une espérance de vie de 5730 ans.<br>
+                    Présent 768 milliers de milliards de fois dans un homme lambda, j'ai une espérance de vie de 5730 ans.<br>
                     Mais l'homme que tu dois récupérer n'en possède plus que 597.910.290.000.000 <br><br>
 
                     Qui Franck a pu enlever ?
@@ -1021,17 +1021,17 @@ function setup9Enigma() {
     main.innerHTML = `
         <div class="message">
             <p>
-                Jules César ? Franck aurait récupérer les ossements de Jules César ? <br>
-                Avec peut etre un trésor caché, ça serait pour ça qu'ils étaient après lui ?<br><br>
-                Quelques heures plus tard, vous recevez un message:
+                Jules César ? Franck aurait-il récupéré les ossements de Jules César ? <br>
+                Avec peut-être un trésor caché, ça serait pour ça qu'ils étaient après lui ?<br><br>
+                Quelques heures plus tard, vous recevez un message :
             </p>
 
             <p class="message__msg">
-                J'ai des infos qui pourrait t'être utile.<br>
-                Je ne peux pas te divulguez mon identité distinctement on est surement sur écoute,
-                mais tu seras la déchiffrer : <br><br>
-                En mélangeant les 2 éléments bornés par ces 2 groupes stellaire,
-                j'obtiens une don héréditaire maîtrisé par un maire.<br>
+                J'ai des infos qui pourraient t'être utiles.<br>
+                Je ne peux pas te divulguer mon identité distinctement on est sûrement sur écoute,
+                mais tu sauras la déchiffrer : <br><br>
+                En mélangeant les 2 éléments bornés par ces 2 groupes stellaires,
+                j'obtiens un don héréditaire maîtrisé par un maire.<br>
                 Qui est ce chef ?<br>
                 • (e1, c3, a6, d5, h7, h8)<br>
                 • (b2, c4, a5, d7, g5, h3)<br><br>
@@ -1051,22 +1051,22 @@ function setup10Enigma() {
     main.innerHTML = `
         <div class="ten">
             <p class="ten__txt">
-                Terumi mais bien sur ! Non pas la Mizukage mais bien Nishio TERUMI ! C'est un très bon ami qui vit au Japon, Franck était lui aussi son mentor.
-                J'ai pu le cotoyer pendant de longues années avant qu'il ne reparte dans son pays natal.
-                Aux dernières nouvelles il était du côté de Tokyo, je vais faire un tour la-bas pour voir ce qu'il a à me dire.
+                Terumi mais bien sûr ! Non pas la Mizukage mais bien Nishio TERUMI ! C'est un très bon ami qui vit au Japon, Franck était lui aussi son mentor.
+                J'ai pu le côtoyer pendant de longues années avant qu'il ne reparte dans son pays natal.
+                Aux dernières nouvelles il était du côté de Tokyo, je vais faire un tour là-bas pour voir ce qu'il a à me dire.
                 <br>
                 <img class="ten__plane" src="./assets/img/plane.png" alt="">
                 <br>
-                Un enfant vous attend à la sorie de l'aéroport avec votre nom sur une pancarte.
-                Vous vous avancez vers lui, et il vous tant un enveloppe.
-                Vous commencer à l'ouvrir et vous constater que le petit à déjà disparu dans la foule.
+                Un enfant vous attend à la sortie de l'aéroport avec votre nom sur une pancarte.
+                Vous vous avancez vers lui, et il vous tent une enveloppe.
+                Vous commencez à l'ouvrir et vous constater que le petit a déjà disparu dans la foule.
             </p>
 
             <section class="aero">
                 <div class="aero__banner"></div>
                 <p class="aero__1">
                     Je suis la carte qui rassemble toutes les fondations de tout ce qui existe.<br>
-                    Tantôt noble, tantôt lourd, voir même hyperactif pour les derniers, je suis une collection de diversité.<br>
+                    Tantôt noble, tantôt lourd, voire même hyperactif pour les derniers, je suis une collection de diversité.<br>
                     Un espace ordonné où le chaos n'a pas sa place.
                 </p>
                 <p class="aero__2">
@@ -1102,7 +1102,7 @@ function setup11Enigma() {
                 Vous vous asseyez en face de lui, sentant immédiatement la tension dans son regard.
                 <br><br>
                 <span class="yugioh__history--i">
-                    "Gabriel... ça fait plaisir de te revoir. J'ai appris pour Franck c'est terrible."
+                    "Gabriel... ça fait plaisir de te revoir. J'ai appris pour Franck, c'est terrible."
                 </span>
                 <br><br>
                 Il jette un coup d'oeil autour de lui, puis sort trois cartes de sa veste et les pose discrètement sur la table.
@@ -1177,13 +1177,13 @@ function setup12Enigma() {
                     <p class="guirlande__txt">
                         Opposé mais néanmoins complémentaire, <br>
                         L'un est gouverné par celui qui brille en empruntant la lumière d'un autre, <br>
-                        L'autre est régit par celui qui admire l'aube avec un retard d'une heure et dix neuf minutes.
+                        L'autre est régi par celui qui admire l'aube avec un retard d'une heure et dix-neuf minutes.
                     </p>
                 </article>
             </div>
 
             <p class="guirlande__final">
-                Au centre de ces parallèles, les diagonales sur ses couleurs t'indique un de mes frères. <br>
+                Au centre de ces parallèles, les diagonales sur ses couleurs t'indiquent un de mes frères. <br>
                 Parmi les géants du Japon, je suis le dauphin.
             </p>
         </div>
@@ -1207,8 +1207,8 @@ function setup13Enigma() {
     main.innerHTML = `
         <div class="route">
             <p class="route__history">
-                Tard dans la soirée du 22, vous arrivez à décoder les informations transmis par le contact de Nishio.
-                Épuisez, vous décidez de faire une petite sièste et d'y aller demain à la première heure.
+                Tard dans la soirée du 22, vous arrivez à décoder les informations transmises par le contact de Nishio.
+                Épuisé, vous décidez de faire une petite sieste et d'y aller demain à la première heure.
                 <br><br>
                 <span class="route__history--bold">
                     En route pour le Mont Ontake !<br>
@@ -1218,7 +1218,7 @@ function setup13Enigma() {
                 On dirait qu'il a été quitté précipitamment et surtout récemment.
                 Comme s'ils étaient au courant qu'on allait venir.
                 <br><br>
-                Vous rentrez dans le premier bureau du hangar que vous voyer, et vous trouvez ce plan :
+                Vous rentrez dans le premier bureau du hangar que vous voyez, et vous trouvez ce plan :
             </p>
 
             <img class="route__img" src="./assets/img/en-route.png" alt="">
@@ -1257,7 +1257,7 @@ function setup14Enigma() {
                 Les Godzillas n'ont pas fui l'entrepôt : ils préparent une attaque contre la Marine Corps Air Station.
                 Il faut les arrêter.
                 <br><br>
-                À peine atterris, vous infiltrez un vieux hangar.
+                À peine atterri, vous infiltrez un vieux hangar.
                 À l'intérieur, une dizaine d'hommes chargent des caisses dans des véhicules.
                 Pas le temps d'hésiter. Vous ouvrez le feu. La première rafale abat un ennemi.
                 Les autres ripostent aussitôt, les balles sifflent autour de vous.
@@ -1267,11 +1267,11 @@ function setup14Enigma() {
                 Trop tard pour esquiver. Un coup de feu éclate… mais ce n'est pas le sien.
                 Il s'effondre, une balle en plein crâne. Derrière lui, un autre membre du gang,
                 arme encore fumante. Il vous fixe un instant et vous dit de fuir !
-                Vous repartez tous les 3 dans le jet. Et vous lui demander pourquoi il a fait ça.
+                Vous repartez tous les 3 dans le jet. Et vous lui demandez pourquoi il a fait ça.
                 <br><br>
                 Après de longues explications, vous comprenez que c'est un agent infiltré,
-                et qu'il connaît très bien Franck. Il vous donne un plan qu'il à pris en photo,
-                qui donne un rendez-vous entre le gang de Godzilla et un de leur informateur.
+                et qu'il connaît très bien Franck. Il vous donne un plan qu'il a pris en photo,
+                qui donne un rendez-vous entre le gang de Godzilla et un de leurs informateurs.
             </p>
 
             <img class="attaque__img" src="./assets/img/attaque.png" alt="">
@@ -1338,7 +1338,7 @@ function setup16Enigma() {
                 Bravo !!!
             </p>
             <p class="stade__history">
-                Tu as résolu toutes les énigmes, merci d'avoir jouer !
+                Tu as résolu toutes les énigmes, merci d'avoir joué !
             </p>
         </div>
     `;
